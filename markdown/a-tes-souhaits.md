@@ -7,9 +7,10 @@ location:
 category: cake
 ---
 
-さんぷるだよ
+吉祥寺駅から徒歩 15 分ほど歩いたところにあります。真向いには東京女子大学の正門が見えます ♪  
+隣には「アテスウェイ グラスエショコラ」というチョコレート専門店もありますので、そちらもおすすめです！
 
 <figure>
-  <img width="50%" src="/images/a-tes-souhaits.jpeg" alt="ケーキ" />
-  <figcaption>おいしかったです</figcaption>
+  <img width="40%" src="/images/a-tes-souhaits.jpeg" alt="ケーキ" />
+  <figcaption>様々な種類のベリーが乗っているケーキ♪</figcaption>
 </figure>

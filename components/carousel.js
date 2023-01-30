@@ -3,20 +3,20 @@ import "react-multi-carousel/lib/styles.css";
 
 const sweetsCarouselList = [
   {
-    src: "https://myrecommend.jp/wp-content/uploads/2014/12/atessouhaits-montblanc.jpg",
-    alt: "cake image",
+    src: "/images/a-tes-souhaits.JPG",
+    alt: "アテスウェイのケーキ",
   },
   {
-    src: "https://myrecommend.jp/wp-content/uploads/2014/12/atessouhaits-montblanc.jpg",
-    alt: "cake image",
+    src: "/images/lechocolat-alainducasse.JPG",
+    alt: "アランデュカスのチョコレート",
   },
   {
-    src: "https://myrecommend.jp/wp-content/uploads/2014/12/atessouhaits-montblanc.jpg",
-    alt: "cake image",
+    src: "/images/setagaya_totoro.JPG",
+    alt: "トトロ型のシュークリーム",
   },
   {
-    src: "https://myrecommend.jp/wp-content/uploads/2014/12/atessouhaits-montblanc.jpg",
-    alt: "cake image",
+    src: "/images/milano_pudding.JPG",
+    alt: "ミラノプリン",
   },
 ];
 
@@ -44,7 +44,7 @@ export default function Carousel() {
     <div className="carousel">
       <MultiCarousel responsive={responsive}>
         {sweetsCarouselList.map((elem, index) => (
-          <div className="card">
+          <div className="card" key={`sweets-${index}`}>
             <img
               className={`sweet${index + 1}-image`}
               src={elem.src}

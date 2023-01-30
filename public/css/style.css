@@ -52,6 +52,10 @@ body {
   margin-bottom: 20px;
 }
 
+.card {
+  height: 15vw;
+}
+
 @media (min-width: 800px) {
   .menu-icon {
     display: none;
