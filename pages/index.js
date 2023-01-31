@@ -41,7 +41,18 @@ const Navbar = () => {
                     showSweetsCategory && "active"
                   } `}
                 >
-                  <li>ケーキ🍰</li>
+                  <li>
+                    <a
+                      style={{
+                        display: "block",
+                        width: "100%",
+                        height: "100%",
+                      }}
+                      href={`./categories/cake`}
+                    >
+                      ケーキ🍰
+                    </a>
+                  </li>
                   <li>チョコ🍫</li>
                   <li>タルト😊</li>
                   <li>プリン🍮</li>
@@ -79,3 +90,11 @@ export default function HomePage() {
     </div>
   );
 }
+
+// 地図上のピンの情報を設定する
+// export async function getStaticProps({ params }) {
+//   const text = fs.readFileSync(`./markdown/${params.shopName}.md`, "utf-8");
+//   const mdxSource = await serialize(text, { parseFrontmatter: true });
+//   // propsを通じてpostをページに渡す
+//   return { props: { post: { shopName: params.shopName, mdx: mdxSource } } };
+// }

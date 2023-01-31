@@ -3,19 +3,19 @@ import "react-multi-carousel/lib/styles.css";
 
 const sweetsCarouselList = [
   {
-    src: "/images/a-tes-souhaits.JPG",
+    src: "/images/a-tes-souhaits.jpg",
     alt: "アテスウェイのケーキ",
   },
   {
-    src: "/images/lechocolat-alainducasse.JPG",
+    src: "/images/lechocolat-alainducasse.jpg",
     alt: "アランデュカスのチョコレート",
   },
   {
-    src: "/images/setagaya_totoro.JPG",
+    src: "/images/setagaya_totoro.jpg",
     alt: "トトロ型のシュークリーム",
   },
   {
-    src: "/images/milano_pudding.JPG",
+    src: "/images/milano_pudding.jpg",
     alt: "ミラノプリン",
   },
 ];
