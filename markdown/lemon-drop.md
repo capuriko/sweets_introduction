@@ -11,6 +11,8 @@ category:
 thumbNailUrl: /images/lemon-drop.jpg
 ---
 
+<a href="https://www.lemondrop.jp/" target="_blank">公式サイト</a>
+
 レモンを使ったフレッシュで爽やかなケーキや焼き菓子、ゼリーなどが売っています ♪  
 個人的なおすすめはレモンパイです！メレンゲの軽やかな甘みとレモンの爽やかな風味がマッチしています ♪
 

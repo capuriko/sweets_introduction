@@ -11,6 +11,8 @@ category:
 thumbNailUrl: /images/french-pound-house.jpg
 ---
 
+<a href="https://frenchpoundhouse.shopinfo.jp/" target="_blank">公式サイト</a>
+
 お店の外観も青を基調としたパステルカラーでとてもかわいい雰囲気です。
 ケーキや焼き菓子、紅茶の種類も豊富なので、組み合わせて買ってみるのもいいですね ♪
 

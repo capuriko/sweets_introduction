@@ -10,6 +10,8 @@ category:
 thumbNailUrl: /images/higuma-doughnuts.jpg
 ---
 
+<a href="https://www.higuma.co/" target="_blank">公式サイト</a>
+
 北海道産の材料を使ったふわっふわなドーナツです ♪ フレーバーもシュガーやチョコレート、ラズベリーなどたくさんあります ！
 学芸大学店ではなんと手作りハンバーガーも！気になりますね ♡
 

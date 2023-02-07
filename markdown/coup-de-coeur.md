@@ -11,6 +11,8 @@ category:
 thumbNailUrl: /images/coup-de-coeur.jpg
 ---
 
+<a href="http://coupdecoeur634.web.fc2.com/" target="_blank">公式サイト</a>
+
 武蔵関駅南口にあるケーキ屋さんです！
 １つ１つ素材にこだわった素敵なケーキと焼き菓子が売られています ♪
 

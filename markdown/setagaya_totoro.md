@@ -11,6 +11,8 @@ category:
 thumbNailUrl: /images/setagaya_totoro.jpg
 ---
 
+<a href="http://www.shiro-hige.net/" target="_blank">公式サイト</a>
+
 トトロの形をしたシュークリームやクッキーが並んだ、ジブリの世界観を楽しめる素敵なお店です！  
 フレーバーによって葉っぱや帽子など頭に乗せているのもカワイイ ♬  
 季節によってフレーバーが変わるので色んな種類を楽しめます！

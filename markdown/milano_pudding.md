@@ -11,6 +11,8 @@ category:
 thumbNailUrl: /images/milano_pudding.jpg
 ---
 
+<a href="https://www.milanoplin.com/" target="_blank">公式サイト</a>
+
 ミラノプリンというイタリア北部伝統のプリンのお店です ♪  
 普通のプリンよりも濃厚かつクリーミーな味わいが特徴的でとっても美味しいです！
 フレーバーも色々種類があるので食べ比べするのもいいですね ♬

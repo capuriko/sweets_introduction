@@ -7,13 +7,13 @@ location:
   longitude: 139.5907162404253
 category:
   - cake
-  - chocolate
   - cookies
 thumbNailUrl: /images/a-tes-souhaits.jpg
 ---
 
-吉祥寺駅から徒歩 15 分ほど歩いたところにあります。真向いには東京女子大学の正門が見えます ♪  
-隣には「アテスウェイ グラスエショコラ」というチョコレート専門店もありますので、そちらもおすすめです！
+<a href="https://www.atessouhaits.biz/" target="_blank">公式サイト</a>
+
+吉祥寺駅から 15 分ほど歩いたところにあります。真向いには東京女子大学の正門が見えます ♪ モンブランが人気ですが、どのケーキも見た目・味共に最高です！
 
 <figure>
   <img width="40%" src="/images/a-tes-souhaits.jpg" alt="ケーキ" />

@@ -12,6 +12,8 @@ category:
 thumbNailUrl: /images/de-limmo.jpg
 ---
 
+<a href="https://de-limmo.jp/pages/mejiro" target="_blank">公式サイト</a>
+
 チョコレートにこだわった商品がたくさん！  
 ケーキや焼き菓子、パフェなど、チョコレート好きにはたまらないお店です!
 

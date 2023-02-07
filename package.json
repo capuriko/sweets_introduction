@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export"
+    "export": "next export",
+    "export:deploy": "next build && next export -o deploy"
   },
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.1.35",

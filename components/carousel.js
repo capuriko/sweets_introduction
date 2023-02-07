@@ -11,19 +11,22 @@ const sweetsCarouselList = [
     alt: "アランデュカスのチョコレート",
   },
   {
+    src: "/images/milano_pudding.jpg",
+    alt: "ミラノプリン",
+  },
+  {
     src: "/images/setagaya_totoro.jpg",
     alt: "トトロ型のシュークリーム",
   },
   {
-    src: "/images/milano_pudding.jpg",
-    alt: "ミラノプリン",
+    src: "/images/de-limmo.jpg",
+    alt: "デリーモのチョコレートケーキ",
   },
 ];
 
 export default function Carousel() {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -42,7 +45,7 @@ export default function Carousel() {
   };
   return (
     <div className="carousel">
-      <MultiCarousel responsive={responsive}>
+      <MultiCarousel autoPlay="true" responsive={responsive}>
         {sweetsCarouselList.map((elem, index) => (
           <div className="card" key={`sweets-${index}`}>
             <img
@@ -57,7 +60,6 @@ export default function Carousel() {
           </div>
         ))}
       </MultiCarousel>
-      ;
     </div>
   );
 }

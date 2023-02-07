@@ -11,6 +11,8 @@ category:
 thumbNailUrl: /images/yoshinori-asami.jpg
 ---
 
+<a href="https://yoshinori-asami.com/" target="_blank">公式サイト</a>
+
 こうのとりの看板が目印のケーキ屋さんです ♬  
 見た目にも華やかなケーキがたくさん！
 マカロンや焼き菓子の種類も豊富なので、色々試してみたくなります ♪

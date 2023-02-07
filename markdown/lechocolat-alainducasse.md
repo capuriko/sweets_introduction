@@ -11,6 +11,8 @@ category:
 thumbNailUrl: /images/lechocolat-alainducasse.jpg
 ---
 
+<a href="https://lechocolat-alainducasse.jp/" target="_blank">公式サイト</a>
+
 フランスのアラン・デュカスシェフが設立したショコラ工房で、パリ工房でカカオ豆から作られたクーベルチュールを使用しているそう！  
 １粒１粒のチョコレートにこだわっているので、ゆっくり味わいながらカカオの奥深さを楽しめます ♪
 
