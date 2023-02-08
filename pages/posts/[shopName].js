@@ -7,6 +7,7 @@ export default function Post({ post }) {
       <h1>{post.mdx.frontmatter.shopName}</h1>
       <h2>場所：{post.mdx.frontmatter.address}</h2>
       {/* ...の意味： スプレッド記法。next-mdx-remoteは、getServerProps や getStaticProps によって、Markdown を読み込むためのもの　*/}
+      {/* MDNファイルの本文を読み込み、各店舗の記事ごとに本文を展開する */}
       <MDXRemote {...post.mdx} />
     </div>
   );

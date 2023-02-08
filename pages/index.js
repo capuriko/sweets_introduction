@@ -3,6 +3,8 @@ import React from "react";
 import Hamburger from "../public/icons/hamburger.svg";
 import SweetsMap from "../components/map";
 import Carousel from "../components/carousel";
+import fs from "fs";
+import { serialize } from "next-mdx-remote/serialize";
 // import { categoryNames } from "../../constant";
 
 const Navbar = () => {
@@ -50,7 +52,7 @@ const Navbar = () => {
                         width: "100%",
                         height: "100%",
                       }}
-                      href={`./categories/cake`}
+                      href={`/categories/cake`}
                     >
                       ケーキ🍰
                     </a>
@@ -116,7 +118,7 @@ const Navbar = () => {
   );
 };
 
-export default function HomePage() {
+export default function HomePage({ shops }) {
   return (
     <div>
       <Navbar />
@@ -136,9 +138,33 @@ export default function HomePage() {
           下のMAPから気になるお店をクリックすると紹介ページに飛びます
         </span>
       </div>
-      <SweetsMap />
+      <SweetsMap shops={shops} />
+      <footer>
+        <p>&lt;&lt;&lt; &copy; Mizuta Erina &gt;&gt;&gt;</p>
+      </footer>
     </div>
   );
+}
+
+// 各種mdファイルからファイル名、latitude、longitudeを持ってきてmap関数でピンを追加していく
+export async function getStaticProps() {
+  const markdownFolder = "./markdown/";
+  const shops = [];
+  await Promise.all(
+    fs.readdirSync(markdownFolder).map(async (fileName) => {
+      const text = fs.readFileSync(`./markdown/${fileName}`, "utf-8");
+      const mdxSource = await serialize(text, { parseFrontmatter: true });
+      // shopsにobjectを格納していく
+      shops.push({
+        articleName: fileName.replace(".md", ""),
+        shopName: mdxSource.frontmatter.shopName,
+        latitude: mdxSource.frontmatter.location.latitude,
+        longitude: mdxSource.frontmatter.location.longitude,
+      });
+    })
+  );
+  // propsを通じてshopsをページに渡す
+  return { props: { shops } };
 }
 
 // 地図上のピンの情報を設定する

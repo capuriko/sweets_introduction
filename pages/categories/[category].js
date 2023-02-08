@@ -1,6 +1,5 @@
 import fs from "fs";
 import { serialize } from "next-mdx-remote/serialize";
-//import { MDXRemote } from "next-mdx-remote"; // getServerProps や getStaticProps によって、Markdown を読み込む
 import { categoryNames } from "../../constant";
 
 export default function Post({ shops, category }) {
